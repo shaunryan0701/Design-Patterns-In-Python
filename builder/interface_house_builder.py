@@ -1,10 +1,10 @@
-"The Builder Interface"
+'''
+House builder interface
+'''
 from abc import ABCMeta, abstractmethod
 
-
 class IHouseBuilder(metaclass=ABCMeta):
-    "The House Builder Interface"
-
+        
     @staticmethod
     @abstractmethod
     def set_building_type(building_type):

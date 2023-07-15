@@ -1,13 +1,11 @@
-"House Builder Example Code"
+'''
+Client to access Director
+'''
 
-from igloo_director import IglooDirector
 from castle_director import CastleDirector
-from houseboat_director import HouseBoatDirector
+from igloo_director import IglooDirector
 
-IGLOO = IglooDirector.construct()
 CASTLE = CastleDirector.construct()
-HOUSEBOAT = HouseBoatDirector.construct()
-
-print(IGLOO.construction())
+IGLOO = IglooDirector.construct()
 print(CASTLE.construction())
-print(HOUSEBOAT.construction())
+print(IGLOO.construction())

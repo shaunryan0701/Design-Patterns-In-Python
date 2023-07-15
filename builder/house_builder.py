@@ -1,7 +1,8 @@
-"The Builder Class"
+'''
+House builder
+'''
 from interface_house_builder import IHouseBuilder
 from house import House
-
 
 class HouseBuilder(IHouseBuilder):
     "The House Builder."
@@ -27,3 +28,4 @@ class HouseBuilder(IHouseBuilder):
 
     def get_result(self):
         return self.house
+    
